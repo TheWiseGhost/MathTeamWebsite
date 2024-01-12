@@ -14,7 +14,7 @@ function reroll(a, b, c) {
             new_c = Math.round(Math.random() * 9) + 1;
             failed = true;
         }
-        if (b >= new_a + new_c) {
+        if (new_b >= new_a + new_c) {
             new_a = Math.round(Math.random() * 9) + 1;
             new_b = Math.round(Math.random() * 9) + 1;
             new_c = Math.round(Math.random() * 9) + 1;
@@ -37,19 +37,16 @@ function reroll(a, b, c) {
 
 function simplify(num) {
     "use strict";
-    var simplified = false;
     var simplified_num = 1;
     var new_num;
     var possible_squares = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144, 169, 196, 225, 256, 289, 324, 361, 400, 441, 484, 529, 576, 625, 676, 729, 784, 841, 900, 961];
-    while (simplified == false) {
-        for (var x in [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]) {
-            if ((num % possible_squares[30-x]) == 0) {
-                new_num = num / possible_squares[30-x];
-                simplified_num = 30-x;
-                simplified = true;
-            }
-        }
+    var cut_index;
+    for (var x = 0; x < 30; x++) {
+        if ((num % possible_squares[30-x]) == 0) {break;} 
+        cut_index = 30 - x - 1;
     }
+    new_num = num / possible_squares[cut_index];
+    simplified_num = cut_index + 1;
     var return_arr = [simplified_num, new_num];
     return return_arr;
 }
