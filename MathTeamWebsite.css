@@ -447,7 +447,7 @@ html, body {
 .two_pole_result {
     display: inline-block;
     color: #020840;
-    padding-left: 21rem;
+    padding-left: 20rem;
     font-family: 'Kanit', sans-serif;
     font-size: 2rem;
     margin-bottom: 0;
@@ -633,7 +633,7 @@ html, body {
 .herons_result {
     display: inline-block;
     color: #020840;
-    padding-left: 23.5rem;
+    padding-left: 25rem;
     font-family: 'Kanit', sans-serif;
     font-size: 2rem;
     margin-bottom: 0;
