@@ -1,0 +1,794 @@
+/* CSS File for MathTeamWebsite */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Kanit&family=Roboto&family=Space+Grotesk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Serif:wght@300&family=Quicksand:wght@500&family=Source+Serif+4:opsz@8..60&display=swap');
+
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.hero {
+    background-image: url('MathTeamWebsiteHero.png');
+    padding-bottom: 5rem;
+    margin-top: 0rem;
+    padding-left: 4rem;
+    padding-bottom: 10rem;
+    width: 95vw;
+    height: 500px;
+    margin-right: 0;
+    padding-right: 0;
+    background-size: cover;
+}
+
+.hero_title {
+    display: block;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    font-size: 7rem;
+    margin-top: 0rem;
+    margin-right: 40rem;
+    padding-top: 3.8rem;
+    line-height: 7rem;
+    margin-bottom: 0;
+}
+
+.hero_subtitle {
+    display: block;
+    color: white;
+    font-family: 'Noto Serif', sans-serif;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 0rem;
+    margin-right: 40rem;
+    margin-left: 0rem;
+    padding-top: 1.5rem;
+    line-height: 3rem;
+}
+
+
+.continue_button {
+    display: inline-block;
+    color: #0B86FF;
+    background-color: #020840;
+    font-size: 1rem;
+    font-family: "Kanit", sans-serif;
+    margin-top: 1rem;
+    margin-left: 8.5rem;
+    border-color: #0B86FF;
+    border-width: thick;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+}
+
+.continue_button:hover {
+    background-color: #10186D;
+    font-size: 1.2rem;
+    padding-top: 0.65rem;
+    padding-bottom: 0.65rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    cursor: pointer; 
+}
+
+.continue_button a{
+    text-decoration: none;
+    color: #0B86FF;
+}
+
+.continue_button a:hover {
+    text-decoration: none;
+}
+
+.continue_button a:visited {
+    color: #0B86FF;
+}
+
+.learn_more_button {
+    display: inline-block;
+    color: #D513F4;
+    background-color: #020840;
+    font-size: 1rem;
+    font-family: "Kanit", sans-serif;
+    margin-top: 1rem;
+    margin-right: 40rem;
+    margin-left: 2rem;
+    border-color: #D513F4;
+    border-width: thick;
+    padding-top: 0.85rem;
+    padding-bottom: 0.85rem;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+}
+
+.learn_more_button:hover {
+    background-color: #10186D;
+    font-size: 1.2rem;
+    padding-top: 0.65rem;
+    padding-bottom: 0.7rem;
+    padding-left: 0.9rem;
+    padding-right: 0.9rem;
+    cursor: pointer;
+}
+
+.learn_more_button a{
+    text-decoration: none;
+    color: #D513F4;
+}
+
+.learn_more_button a:hover {
+    text-decoration: none;
+}
+
+.learn_more_button a:visited {
+    color: #D513F4;
+}
+
+.navbar_button1 {
+    display: inline-block;
+    font-size: 1.2rem;
+    font-family: "Lato", sans-serif;
+    margin-left: 30rem;
+    color: white;
+    background-color: #020840;
+    padding-top: 2.5rem;
+    margin-bottom: 0;
+    margin-top: 0.1rem;
+    padding-bottom: 0.5rem;
+    border: None; 
+}
+
+.navbar_button1:hover {
+    font-size: 1.4rem;
+    text-decoration: underline;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    cursor: pointer;
+}
+
+.navbar_button1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar_button1 a:hover {
+    text-decoration: none;
+}
+
+.navabar_button1 a:visited {
+    color: white;
+}
+
+.navbar_button {
+    display: inline-block;
+    font-size: 1.2rem;
+    font-family: "Lato", sans-serif;
+    margin-left: 3rem;
+    color: white;
+    background-color: #020840;
+    padding-top: 2.5rem;
+    margin-bottom: 0;
+    margin-top: 0.1rem;
+    padding-bottom: 0.5rem;
+    border: None; 
+}
+
+.navbar_button:hover {
+    font-size: 1.4rem;
+    padding-bottom: 0rem;
+    padding-right: 0rem;
+    padding-left: 0rem;
+    padding-top: 0rem;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.navbar_button a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar_button a:hover {
+    text-decoration: none;
+}
+
+.navabar_button a:visited {
+    color: white;
+}
+
+
+
+.learn_more {
+    background-color: #F7F7F2;
+    padding-top: 1rem;
+    padding-left: 6rem;
+    padding-right: 5rem;
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+}
+
+.learn_more_title {
+    font-size: 2.5rem;
+    font-family: "Kanit", sans-serif;
+    color: #792359;
+}
+
+.learn_more_content {
+    font-size: 1.3rem;
+    font-family: "Roboto", sans-serif;
+    color: #020840;
+    line-height: 2rem;
+}
+
+.learn_more_img {
+    float: right;
+    width: 30%;
+    height: 30%;
+    margin-right: 4rem;
+    margin-left: 7rem;
+    margin-top: 1.5rem;
+}
+
+.yes_train_button {
+    font-size: 1rem;
+    font-family: "Kanit", sans-serif;
+    color: #792359;
+    background-color: #F7F7F2;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    border-color: #EA7690;
+    border-width: thick;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+}
+
+.yes_train_button:hover {
+    background-color: #FABCF7;
+    font-size: 1.2rem;
+    padding-top: 0.65rem;
+    padding-bottom: 0.65rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    cursor: pointer; 
+}
+
+.yes_train_button a{
+    text-decoration: none;
+    color: #792359;
+}
+
+.yes_train_button a:hover {
+    text-decoration: none;
+}
+
+.yes_train_button a:visited {
+    color: #792359;
+}
+
+
+
+.trainer_portal {
+    background-image: url('Math_Portal_Unactive.png');
+    opacity: 1;
+    width: 100vw;
+    height: 750px;
+    background-position: center;
+    background-size: cover;
+    transition-duration: 0.5s;
+}
+
+.trainer_portal_title {
+    font-size: 5rem;
+    font-family: "Kanit", sans-serif;
+    color: white;
+    margin-top: 0;
+    padding-top: 6rem;
+    padding-left: 16rem;
+    word-spacing: 21rem;
+}
+
+.trainer_button_centroid {
+    display: inline-block;
+    font-size: 1.5rem;
+    font-family: "Lato", sans-serif;
+    margin-left: 15rem;
+    color: white;
+    background-color: transparent; /* Add outline: none; if not working */
+    padding-top: 1rem;
+    margin-bottom: 0;
+    margin-top: 5rem;
+    padding-bottom: 0.5rem;
+    border: None;
+    text-decoration: underline;
+}
+
+.trainer_button_centroid:hover {
+    color: #95E1F7;
+    cursor: pointer;
+}
+
+.trainer_button_centroid a{
+    text-decoration: underline;
+    color: white;
+}
+
+.trainer_button_centroid a:hover {
+    text-decoration: underline;
+    color: #95E1F7;
+}
+
+
+.trainer_button_two_pole {
+    display: inline-block;
+    font-size: 1.5rem;
+    font-family: "Lato", sans-serif;
+    margin-left: 41.5rem;
+    color: white;
+    background-color: transparent; /* Add outline: none; if not working */
+    padding-top: 1rem;
+    margin-bottom: 0;
+    margin-top: 5rem;
+    padding-bottom: 0.5rem;
+    border: None;
+    text-decoration: underline;
+}
+
+.trainer_button_two_pole:hover {
+    color: #95E1F7;
+    cursor: pointer;
+}
+
+.trainer_button_two_pole a{
+    text-decoration: underline;
+    color: white;
+}
+
+.trainer_button_two_pole a:hover {
+    text-decoration: underline;
+    color: #95E1F7;
+}
+
+
+.trainer_button_angle_bisector {
+    display: inline-block;
+    font-size: 1.5rem;
+    font-family: "Lato", sans-serif;
+    margin-left: 26rem;
+    color: white;
+    background-color: transparent; /* Add outline: none; if not working */
+    padding-top: 1rem;
+    margin-bottom: 0;
+    margin-top: 6rem;
+    padding-bottom: 0.5rem;
+    border: None;
+    text-decoration: underline;
+}
+
+.trainer_button_angle_bisector:hover {
+    color: #95E1F7;
+    cursor: pointer;
+}
+
+.trainer_button_angle_bisector a{
+    text-decoration: underline;
+    color: white;
+}
+
+.trainer_button_angle_bisector a:hover {
+    text-decoration: underline;
+    color: #95E1F7;
+}
+
+
+.trainer_button_herons {
+    display: inline-block;
+    font-size: 1.5rem;
+    font-family: "Lato", sans-serif;
+    margin-left: 17.5rem;
+    color: white;
+    background-color: transparent; /* Add outline: none; if not working */
+    padding-top: 1rem;
+    margin-bottom: 0;
+    padding-bottom: 0.5rem;
+    margin-top: 6rem;
+    border: None;
+    text-decoration: underline;
+}
+
+.trainer_button_herons:hover {
+    font-size: 1.5rem;
+    color: #95E1F7;
+    cursor: pointer;
+}
+
+.trainer_button_herons a{
+    text-decoration: underline;
+    color: white;
+}
+
+.trainer_button_herons a:hover {
+    text-decoration: underline;
+    color: #95E1F7;
+}
+
+
+
+/* TWO POLE */
+
+.two_pole {
+    background-color: #F7F9F9;
+    width: 100vw;
+    padding-bottom: 2rem;
+    margin: 0;
+}
+
+.two_pole_question {
+    display: inline-block;
+    color: #020840;
+    padding-left: 20rem;
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    margin-top: 2rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.two_pole_result {
+    display: inline-block;
+    color: #020840;
+    padding-left: 21rem;
+    font-family: 'Kanit', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.two_pole_title {
+    display: inline-flex;
+    color: white;
+    background-color: #020840;
+    padding-left: 8rem;
+    font-family: 'Kanit', sans-serif;
+    font-size: 4rem;
+    padding-top: 2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 2rem;
+    align-items: center;
+}
+
+.two_pole_img {
+    display: inline-block;
+    margin-right: 4rem;
+    margin-left: 12rem;
+    margin-top: 0rem;
+}
+
+.home_button {
+    padding-right: 6.5rem;
+    padding-left: 0.5rem;
+    color: white;
+    background-color: #020840;
+    font-size: 1.5rem;
+    border-color: transparent;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+}
+
+.home_button_icon {
+    margin-left: 47rem;
+    align-items: center;
+    border-color: white;
+    border-width: 2px;
+    padding: 0.5rem;
+    color: white;
+    background-color: transparent;
+}
+
+.home_button:hover {
+    font-size: 1.7rem;
+    padding-right: 6rem;
+    text-decoration: underline;
+}
+
+.home_button a{
+    color: white;
+    text-decoration: none;
+}
+
+.home_button a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.home_button a:visited {
+    text-decoration: none;
+}
+
+.home_button_icon a{
+    color: white;
+    text-decoration: none;
+}
+
+.home_button_icon a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.home_button_icon a:visited {
+    text-decoration: none;
+}
+
+
+.answer_this_two_pole {
+    display: inline-block;
+    padding-left: 20rem;
+    color: #020840;
+    background-color: #F7F9F9;
+    padding-right: 5rem;
+    font-size: 1.7rem;
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    margin-top: 0;
+    text-decoration: underline;
+}
+
+.two_pole_label {
+    float: right;
+    display: inline-block;
+    color: #020840;
+    margin-right: 1rem;
+    margin-top: 4.3rem;
+    font-size: 1.5rem;
+    font-family: "Lato", sans-serif;
+}
+
+.answer_area {
+    float: right;
+    display: inline-block;
+    border-color: black;
+    margin-right: 0.5rem;
+    color: black;
+    font-size: 1.5rem;
+    font-family: "Roboto", sans-serif;
+    padding: 0.3rem 0.4rem;
+    margin-top: 4rem;
+}
+
+.two_pole_submit {
+    align-content: center;
+    float: right;
+    display: inline-block;
+    border-color: transparent;
+    background-color: #792359;
+    color: white;
+    font-size: 1rem;
+    font-family: "Kanit", sans-serif;
+    margin-right: 1rem;
+    padding: 0.47rem 1.5rem;
+    margin-top: 4rem;
+}
+
+.two_pole_submit:hover {
+    background-color: #B53586;
+}
+
+.two_pole_refresh {
+    align-content: center;
+    float: right;
+    display: inline-block;
+    border-color: transparent;
+    background-color: #086ACC;
+    color: white;
+    font-size: 1rem;
+    font-family: "Kanit", sans-serif;
+    margin-right: 4rem;
+    padding: 0.47rem 1.5rem;
+    margin-top: 4rem;
+}
+
+.two_pole_refresh:hover {
+    background-color: #0B86FF;
+}
+
+
+
+
+/* HERONS */
+
+
+.herons {
+    background-color: #F7F9F9;
+    width: 100vw;
+    padding-bottom: 2rem;
+    margin: 0;
+}
+
+.herons_question {
+    display: inline-block;
+    color: #020840;
+    padding-left: 9rem;
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    margin-top: 2rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.herons_result {
+    display: inline-block;
+    color: #020840;
+    padding-left: 23.5rem;
+    font-family: 'Kanit', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.herons_title {
+    display: inline-flex;
+    color: white;
+    background-color: #020840;
+    padding-left: 8rem;
+    font-family: 'Kanit', sans-serif;
+    font-size: 4rem;
+    padding-top: 2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 2rem;
+    align-items: center;
+}
+
+.herons_img {
+    display: inline-block;
+    margin-right: 4rem;
+    margin-left: 12rem;
+    margin-top: 2rem;
+    height: 40%;
+}
+
+.herons_home_button {
+    padding-right: 6.5rem;
+    padding-left: 0.5rem;
+    color: white;
+    background-color: #020840;
+    font-size: 1.5rem;
+    border-color: transparent;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+}
+
+.herons_home_button_icon {
+    margin-left: 34rem;
+    align-items: center;
+    border-color: white;
+    border-width: 2px;
+    padding: 0.5rem;
+    color: white;
+    background-color: transparent;
+}
+
+.herons_home_button:hover {
+    font-size: 1.7rem;
+    padding-right: 6rem;
+    text-decoration: underline;
+}
+
+.herons_home_button a{
+    color: white;
+    text-decoration: none;
+}
+
+.herons_home_button a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.herons_home_button a:visited {
+    text-decoration: none;
+}
+
+.herons_home_button_icon a{
+    color: white;
+    text-decoration: none;
+}
+
+.herons_home_button_icon a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.herons_home_button_icon a:visited {
+    text-decoration: none;
+}
+
+
+.herons_answer_this {
+    display: inline-block;
+    padding-left: 20rem;
+    color: #020840;
+    background-color: #F7F9F9;
+    padding-right: 5rem;
+    font-size: 1.7rem;
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    margin-top: 0;
+    text-decoration: underline;
+}
+
+.herons_label {
+    float: right;
+    display: inline-block;
+    color: #020840;
+    margin-right: 1rem;
+    margin-top: 3.3rem;
+    font-size: 1.5rem;
+    font-family: "Lato", sans-serif;
+}
+
+.herons_answer_area {
+    float: right;
+    display: inline-block;
+    border-color: black;
+    margin-right: 0.5rem;
+    color: black;
+    font-size: 1.5rem;
+    font-family: "Roboto", sans-serif;
+    padding: 0.3rem 0.4rem;
+    margin-top: 3rem;
+}
+
+.herons_submit {
+    align-content: center;
+    float: right;
+    display: inline-block;
+    border-color: transparent;
+    background-color: #792359;
+    color: white;
+    font-size: 1rem;
+    font-family: "Kanit", sans-serif;
+    margin-right: 1rem;
+    padding: 0.47rem 1.5rem;
+    margin-top: 3rem;
+}
+
+.herons_submit:hover {
+    background-color: #B53586;
+}
+
+.herons_refresh {
+    align-content: center;
+    float: right;
+    display: inline-block;
+    border-color: transparent;
+    background-color: #086ACC;
+    color: white;
+    font-size: 1rem;
+    font-family: "Kanit", sans-serif;
+    margin-right: 4rem;
+    padding: 0.47rem 1.5rem;
+    margin-top: 3rem;
+}
+
+.herons_refresh:hover {
+    background-color: #0B86FF;
+}

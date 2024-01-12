@@ -1,0 +1,44 @@
+<html lang="en-us">
+    
+    <meta charset="UTF-8">
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content="width=device-width, intial-scale=1.0">
+    
+    <link rel="stylesheet" href='MathTeamWebsite.css'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+    
+    <head>
+    </head>
+    
+    <body> 
+        <div class='herons'> 
+            <article class='herons_title'>
+                Heron's Formula
+                <button class='herons_home_button_icon' id='home_icon'><span class='material-symbols-outlined'><a href='MathTeamWebsiteMain.html'>Home</a></span></button>
+                <button class='herons_home_button' id='home'><a href='MathTeamWebsiteMain.html'>Home</a></button>
+            </article>
+            
+            <div style='align-items: center'>
+                <p id="side_ab" class='herons_question'></p>
+                <p class='herons_answer_this'>Find the area of the triangle</p>
+                <p id='side_c' class='herons_question' style='padding-left: 15rem'></p>
+                <p id='display_result' class='herons_result'></p>
+            </div>
+            
+            <div style='align-items: center'>
+                <img src='Herons%20Img.png' class='herons_img'>
+                
+                <button id='refresh' class='herons_refresh'>Refresh</button>
+                <button id='submit' class='herons_submit'>Submit</button>
+                <input id='input_answer' type='text' placeholder="Ex: 5/7" maxlength='15' class='herons_answer_area'>
+                <label for='input_answer' class='herons_label'>Answer:</label>
+            </div>
+            
+            
+            <p id='display_result' class='herons_result'></p>
+        </div>
+        
+        <script src='MathTeamWebsite_Herons.js'></script>
+    </body>
+    
+</html>
