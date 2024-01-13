@@ -1,0 +1,43 @@
+<html lang="en-us">
+    
+    <meta charset="UTF-8">
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href='MathTeamWebsite.css'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+    
+    <head>
+    </head>
+    
+    <body> 
+        <div class='centroid'> 
+            <article class='centroid_title'>
+                Centroid
+                <button class='centroid_home_button_icon' id='home_icon'><span class='material-symbols-outlined'><a href='MathTeamWebsiteMain.html'>Home</a></span></button>
+                <button class='centroid_home_button' id='home'><a href='MathTeamWebsiteMain.html'>Home</a></button>
+            </article>
+            
+            
+            <p id="coordinate_ab" class='centroid_question'></p>
+            <p class='centroid_answer_this'>Find the coordinate of the centroid</p>
+            <p id='coordinate_c' class='centroid_question' style='padding-left: 12rem'></p>
+            <p id='display_result' class='centroid_result'></p>
+            
+            <div style='align-items: center'>
+                <img src='Centroid_Img.png' class='centroid_img'>
+                
+                <button id='refresh' class='centroid_refresh'>Refresh</button>
+                <button id='submit' class='centroid_submit'>Submit</button>
+                <input id='input_answer' type='text' placeholder="Ex: (2.67,7)" maxlength='15' class='centroid_answer_area'>
+                <label for='input_answer' class='centroid_label'>Answer:</label>
+            </div>
+            
+            
+            <p id='display_result' class='centroid_result'></p>
+        </div>
+        
+        <script src='MathTeamWebsite_Centroid.js'></script>
+    </body>
+    
+</html>
