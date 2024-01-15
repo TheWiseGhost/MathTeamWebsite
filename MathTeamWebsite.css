@@ -1170,3 +1170,55 @@ html, body {
 .angleb_refresh:hover {
     background-color: #0B86FF;
 }
+
+
+/* FOOTER */
+
+ul.footer {
+    background-color: black;
+    color: white;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin: 0;
+    overflow: hidden;
+    display: inline-block;
+    padding-left: 27.2rem;
+    padding-right: 27.2rem;
+}
+
+ul.footer li {
+    background: black;
+    padding: 0.5rem;
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+ul.footer li a{
+    font-family:  'Lato', sans-serif;
+    font-size: 1.3rem;
+    padding-left: 2rem;
+    text-decoration: none;
+    align-items: center;
+    color: white;
+    margin-bottom: 0;
+}
+
+ul.footer li a:hover {
+    text-decoration: underline;
+    color: #93FAE5
+}
+
+ul.footer li a:visited {
+    text-decoration: none;
+}
+
+.created_by {
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: "Roboto", "Space Grotesk", sans-serif;
+    font-size: 0.8rem;
+    text-align: center;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
